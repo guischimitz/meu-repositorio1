@@ -1,0 +1,84 @@
+/* Estilo para o corpo da página */
+body {
+    width: auto;
+    max-width: 550px;
+    margin: auto;
+    background-color: #204F69;
+    text-align: center;
+}
+
+h2 {
+    
+    font-family: "arial";
+    color: #FFCB04;
+    font-size: 50px;
+}
+
+h3 {
+    font-family: "arial";
+    color: #000000;
+    font-size: 20px;
+
+}
+/* Estilo para o cabeçalho principal */
+header {
+    color: #FFCB04;
+    font: 30px verdana;
+}
+
+/* Estilo para o rodapé */
+footer {
+    color: #CAE1FF;
+    font: 12px arial;
+}
+
+/* Estilo para a barra de navegação */
+#menu_ul {
+    list-style: none;
+    padding: 0;
+    background-color: #14052c;
+    margin: 0 auto;
+    width: 500px;
+    height: 80px;
+    display: flex; /* Adicionando flexbox */
+    justify-content: center; /* Centralizando os itens */
+    align-items: center; /* Alinhando verticalmente os itens */
+}
+
+#menu_ul li {
+    display: inline;
+    color:
+}
+
+#menu_ul li a {
+    color: #FFCB04;
+    font-family: "verdana";
+    padding: 15px 15px; /* Ajuste do padding */
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #204F69; /* Adicionando borda */
+    margin: 0 10px; /* Espaçamento entre os botões */
+}
+
+/* Estilo para o formulário de criação de conta */
+form {
+    margin-left: 0px;
+    color: #FFCB04;
+    font: 18px arial;
+}
+
+/* Estilo para as fontes gerais */
+p1 {
+    color: #FFCB04;
+    font: px arial;
+}
+
+/* Estilo para os campos de preenchimento do formulário */
+input {
+    width: 300px;
+    height: 50px;
+    font: 18px verdana, arial, helvetica, sans-serif;
+    color: #000000;
+    padding: 1px;
+    border: 4px solid #000000;
+}
